@@ -42,6 +42,10 @@
     text-transform: lowercase;
     font-weight: 400;
   }
+
+  .titulo-contato h1 {
+    font-size: 2rem;
+  }
 }
 
 .contato {
@@ -111,6 +115,9 @@
 }
 
 @media (max-width: 800px) {
+  /* #contato {
+    background: linear-gradient(#161a03 600px, #ffffff 0px);
+  } */
   .contato {
     grid-template-columns: 1fr;
   }
