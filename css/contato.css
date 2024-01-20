@@ -1,0 +1,131 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contato {
+  background: linear-gradient(#161a03 600px, #ffffff 0px);
+}
+
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #161a03;
+}
+
+.titulo-contato p {
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.titulo-contato h1 {
+  /* font: 600 4rem/1.125; */
+  font-weight: 700;
+  font-size: 4rem;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .titulo-contato p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 60px;
+}
+
+.contato-dados,
+.contato-formulario {
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contato-dados {
+  background: #0c0f01;
+  border-radius: 5px;
+}
+
+.contato-dados a {
+  font: 400 1rem/1.5 sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contato-dados h2 {
+  margin-bottom: 60px;
+  color: white;
+  font: 400 1.125rem/1.35;
+}
+
+.contato-endereco {
+  margin-bottom: 32px;
+  background: url("../img/icons/pin.svg") no-repeat 0 2px;
+  background-size: 16px;
+}
+
+.contato-dados a {
+  display: block;
+  max-width: max-content;
+  padding-left: 28px;
+}
+
+.contato-dados a:hover {
+  color: white;
+}
+
+.contato-meios a:first-child {
+  background: url("../img/icons/carta.svg") no-repeat 0 6px;
+  background-size: 16px;
+  margin-bottom: 32px;
+}
+
+.contato-meios a:nth-child(2) {
+  background: url("../img/icons/whatsapp.svg") no-repeat 0 2px;
+  background-size: 18px;
+  margin-bottom: 32px;
+}
+
+.contato-meios a:nth-child(3) {
+  background: url("../img/icons/phone.svg") no-repeat 0 2px;
+  background-size: 16px;
+}
+
+.contato-redes {
+  display: flex;
+  margin-top: 32px;
+}
+
+@media (max-width: 800px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-dados {
+    padding: 40px 20px;
+  }
+
+  .contato-dados h2 {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contato-dados {
+    background: #0c0f01;
+  }
+}

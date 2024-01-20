@@ -1,0 +1,50 @@
+/* Introducao */
+
+.introducao {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+.introducao h1 {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 30px;
+  color: #286428;
+}
+
+/* Sobre */
+
+.sobre {
+  border-top: 2px solid #286428;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  /* transition: 0.4s; */
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: #286428;
+}
+
+.sobre-info p,
+.introducao p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}

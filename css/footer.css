@@ -1,0 +1,11 @@
+/* Footeer */
+.footer {
+  grid-area: footer;
+  background: linear-gradient(135deg, #2e332e, #286428);
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
